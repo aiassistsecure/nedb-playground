@@ -1,0 +1,36 @@
+/* tslint:disable */
+/* eslint-disable */
+export const memory: WebAssembly.Memory;
+export const __wbg_nedbwasm_free: (a: number, b: number) => void;
+export const nedbwasm_create_index: (a: number, b: number, c: number, d: number, e: number) => void;
+export const nedbwasm_delete: (a: number, b: number, c: number, d: number, e: number) => [number, number];
+export const nedbwasm_flush: (a: number) => void;
+export const nedbwasm_get: (a: number, b: number, c: number, d: number, e: number) => [number, number];
+export const nedbwasm_get_as_of: (a: number, b: number, c: number, d: number, e: number, f: number) => [number, number];
+export const nedbwasm_head: (a: number) => [number, number];
+export const nedbwasm_inbound: (a: number, b: number, c: number, d: number, e: number) => [number, number];
+export const nedbwasm_inbound_as_of: (a: number, b: number, c: number, d: number, e: number, f: number) => [number, number];
+export const nedbwasm_link: (a: number, b: number, c: number, d: number, e: number, f: number, g: number) => [number, number];
+export const nedbwasm_neighbors: (a: number, b: number, c: number, d: number, e: number) => [number, number];
+export const nedbwasm_neighbors_as_of: (a: number, b: number, c: number, d: number, e: number, f: number) => [number, number];
+export const nedbwasm_nesql: (a: number, b: number, c: number) => [number, number, number, number];
+export const nedbwasm_nesql_dialect: (a: number, b: number, c: number) => [number, number, number, number];
+export const nedbwasm_new: () => number;
+export const nedbwasm_put: (a: number, b: number, c: number, d: number, e: number, f: number, g: number) => [number, number, number, number];
+export const nedbwasm_query: (a: number, b: number, c: number) => [number, number, number, number];
+export const nedbwasm_scan_status: (a: number) => [number, number];
+export const nedbwasm_seq: (a: number) => number;
+export const nedbwasm_since: (a: number, b: number, c: number) => [number, number];
+export const nedbwasm_tip: (a: number) => [number, number];
+export const nedbwasm_tip_collection: (a: number, b: number, c: number) => [number, number];
+export const nedbwasm_unlink: (a: number, b: number, c: number, d: number, e: number, f: number, g: number) => [number, number];
+export const nedbwasm_verify: (a: number) => number;
+export const __wbindgen_exn_store: (a: number) => void;
+export const __externref_table_alloc: () => number;
+export const __wbindgen_externrefs: WebAssembly.Table;
+export const __wbindgen_malloc: (a: number, b: number) => number;
+export const __wbindgen_realloc: (a: number, b: number, c: number, d: number) => number;
+export const __externref_table_dealloc: (a: number) => void;
+export const __wbindgen_free: (a: number, b: number, c: number) => void;
+export const __externref_drop_slice: (a: number, b: number) => void;
+export const __wbindgen_start: () => void;
